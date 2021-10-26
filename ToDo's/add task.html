@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Task page</h3>
+    <form action="list task.html">
+        Task name: <input type="text" name="taskname" id="taskname"><br>
+        Description: <input type="description" name="description" id="description"><br>
+        Due date: <input type="date" name="date" id="date" value="2021-10-20" min="2021-10-20" max="2021-10-22"><br>
+        Priority <select name="priority" id="priority">
+            <option value="l" selected>Low</option>
+            <option value="m">Medium</option>
+            <option value="h">High</option>
+        </select><br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
